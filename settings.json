@@ -355,7 +355,8 @@
       "Bash(kill 60125 60124)",
       "Bash(curl -s 'http://localhost:3456/navigate?target=663CB8734441AD83209E58ED4E614249&url=https://weixin.sogou.com/weixin?type=2%26ie=utf8%26query=AI%E8%BF%9B%E5%8C%96%E8%AE%BA-%E8%8A%B1%E7%94%9F')",
       "Bash(curl -s -X POST 'http://localhost:3456/eval?target=663CB8734441AD83209E58ED4E614249' -d document.title)",
-      "mcp__metabase__vip_cohort_tracker"
+      "mcp__metabase__vip_cohort_tracker",
+      "Bash(python3 /Users/admin/.claude/skills/content-harness/scripts/orchestrator.py init --inspiration 今天不提ai的进步和发展了，讲讲ai视角里面你们想对现在焦虑的人说的吧)"
     ],
     "additionalDirectories": [
       "$HOME/Documents/Obsidian Vault/07_Wiki",
@@ -420,6 +421,10 @@
           {
             "type": "command",
             "command": "echo \"- $(date '+%Y-%m-%d %H:%M') | $(pwd | sed 's|/Users/admin/||g')\" >> \"$HOME/Documents/Obsidian Vault/09_System/Claude/session-log.md\""
+          },
+          {
+            "type": "command",
+            "command": "cd \"$HOME/.claude\" && git add projects/-Users-admin-Documents-Claude-Projects/memory/ skills/ settings.json 2>/dev/null && git diff --cached --quiet || (git commit -m \"auto: $(date '+%Y-%m-%d %H:%M') session backup\" && git push origin main --quiet 2>/dev/null)"
           }
         ]
       }
