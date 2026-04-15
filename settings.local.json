@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip -o 用户标签快照_查询与整合工具.zip -d .)",
+      "Bash(pip install:*)",
+      "Bash(pip3 --version)",
+      "Bash(pip3 install:*)",
+      "WebFetch(domain:github.com)",
+      "WebSearch"
+    ]
+  }
+}

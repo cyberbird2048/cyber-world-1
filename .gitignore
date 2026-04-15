@@ -1,0 +1,35 @@
+# ─── 对话历史（362MB，敏感，不进版本控制）─────────────────────
+projects/*/[0-9a-f]*
+projects/*/*.jsonl
+history.jsonl
+
+# 保留 memory 文件（明确 un-ignore）
+!projects/-Users-admin-Documents-Claude-Projects/memory/
+!projects/-Users-admin-Documents-Claude-Projects/memory/**
+
+# ─── 运行时缓存 / 临时文件 ─────────────────────────────────────
+cache/
+session-env/
+sessions/
+telemetry/
+file-history/
+downloads/
+shell-snapshots/
+debug/
+backups/
+mcp-needs-auth-cache.json
+policy-limits.json
+plugins/cache/
+
+# ─── 备份文件 ─────────────────────────────────────────────────
+*.bak
+
+# ─── Python 缓存 ──────────────────────────────────────────────
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# ─── macOS ────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store

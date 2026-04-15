@@ -1,0 +1,6 @@
+- [Membership Operations Role](user_role_membership_ops.md) — Longbridge VIP program lead, dual-path criteria, high-value user lifecycle focus
+- [LLM Wiki Integration](project_llm_wiki_integration.md) — Karpathy Wiki pattern in OrbitOS, 07_Wiki as compounding knowledge layer
+- [Wiki 四环闭合机制](project_wiki_lifecycle.md) — 摄入/调取/审阅/收口四环自动化，CLAUDE.md 行为规则
+- [Agent Knowledge Mesh](project_agent_knowledge_mesh.md) — 7 个跨平台 Agent Kit，profile/knowledge/patterns/feedback 四件套，自动加载+反馈闭环
+- [WeChat Publish: API Not UI](feedback_wechat_publish_api.md) — 微信发布走 filetransfer+operate_appmsg API，禁止 CDP 编辑器 UI 操作文件上传
+- [Project Kanban System](project_kanban_system.md) — project.json tasks[] + kanban.html 泳道看板 + /project-kanban skill，15个任务跨5个项目
